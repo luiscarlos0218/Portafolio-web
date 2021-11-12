@@ -1,0 +1,163 @@
+<form action="">
+
+        <label for="nombre">
+            <span>¿como te llamas?</span>
+            <input type="text" id="nombre" placeholder="Tu nombre">
+        </label>
+
+        <label for="fecha-inicio">
+            <span>¿como te llamas?</span>
+            <input type="date" id="fecha-inicio">
+        </label>
+
+        <label for="hora_estudio">
+            <span>¿como te llamas?</span>
+            <input type="time" id="hora_estudio">
+        </label>
+    </form>
+    <form action="">
+
+        <label for="hora">
+            <span>Hora</span>
+            <input type="time" id="hora" name="hora">
+        </label>
+
+        <label for="dia">
+            <span>Dia</span>
+            <input type="date" id="dia" name="dia">
+        </label>
+
+        <label for="Semana">
+            <span>Semana</span>
+            <input type="week" id="Semana" name="Semana">
+        </label>
+        <label for="Mes">
+            <span>Mes</span>
+            <input type="month" id="Mes" name="Mes">
+        </label>
+        <input type="submit">
+    </form>
+    <form action="">
+        <label for="calendario">
+            <span>Calendario</span>
+            <input type="datetime-local" id="calendario" name="calendario">
+        </label>
+        <input type="submit">
+    </form>
+
+        <form action="">
+            <label for="nombre">
+                <span>¿Cual es tu nombre</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+            </label>
+            <label for="correo">
+                <span>¿Cual es tu correo?</span>
+                <input type="email" name="correo" id="correo" autocomplete="email" required>
+            </label>
+            <label for="pais">
+                <span>¿Cual es tu pais?</span>
+                <input type="text" name="pais" id="pais" autocomplete="country" required>
+            </label>
+            <label for="cp">
+                <span>¿Cual es tu codigo postal</span>
+                <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+            </label>
+            <input type="submit">
+        </form>
+
+        <select name="cursos" id="">
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="CSS">CSS</option>
+            <option value="HTML">HTML</option>
+        </select>
+        
+        <input list="cursos">
+        <datalist id="cursos">
+            <option value="Java">Java</option>
+            <option value="Python"></option>
+            <option value="CSS"></option>
+            <option value="HTML"></option>
+        </datalist>
+
+
+<video src="./pics/nature.mp4#t=5,9" controls preloud="auto"></video>
+
+
+
+<aside>                 
+                <div class="item-container">  
+                    <div class="item-tittle">
+                        <p>Redes Neuronales</p>
+                    </div>     
+                    <figure>
+                        <img class="imagen-item" src="./pics/redes_neuronales.jpg" alt="Proyectos de redes neuronales">
+                    </figure>
+                    <figcaption>Tomada de google</figcaption>
+                </div>
+
+                <br>
+
+                <div class="item-container">  
+                    <div class="item-tittle">
+                        <p>Scrappy</p> 
+                    </div>     
+                    <figure>
+                        <img class="imagen-item" src="./pics/scrapy.jpg" alt="Proyectos de web scrapy">
+                    </figure>
+                    <figcaption>Tomada de google</figcaption>
+                </div>
+
+                <br>
+
+                <div class="item-container">  
+                    <div class="item-tittle">
+                        <p>Machine Learning</p> 
+                    </div>  
+                    <figure>
+                        <img class="imagen-item" src="./pics/machine_Learning.jpg" alt="Proyectos de machine Learning">
+                    </figure>
+                    <figcaption>Tomada de google</figcaption>
+                </div>
+           </aside>
+           <div class="area-principal">
+             <p>
+                 Area principal 
+             </p>   
+            </div>
+
+
+
+/* Estiolos main*/
+.area-principal{
+    display: inline;
+}
+
+.item-container{
+    display: inline-block;
+    width: 20vw;
+    height: 20vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: rgb(219, 6, 6);
+    background-color: rgb(117, 147, 211);
+}
+
+.item-tittle{
+    background-color: rgb(161, 240, 229);
+    width: 150px;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    bottom: 10px;
+}
+
+.imagen-item{
+    margin-left:30px;
+    width: 15vw;
+    height: 15vh;
+}
+
+
+

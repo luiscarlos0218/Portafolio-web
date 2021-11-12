@@ -91,9 +91,188 @@ header img{
     width:13px;
     height:8px;
     margin-left:10px;
-    background-image: url(../assets/icons/down-arrow.svg);
+    background-image: url("../assets/icons/down-arrow.svg");
 }
 
+/* Estilos del main */
+
+main{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:auto;
+    background-color: var(--off-white);
+}
+
+.main-container{
+    width:100%;
+    height:auto;
+    padding-top:80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main-container--tittle{
+    width:90%;
+    min-width:288px;
+    max-width:900px;
+    margin:0 auto;
+}
+
+.backgroundImg-redes{
+    width:200px;
+    height:200px;
+    margin:0 auto;
+    margin-bottom:50px;
+    background-image:url("../pics/redes_neuronales.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.main-container h2{
+    margin-bottom:30px;
+    font-size:2.4rem;
+    font-weight:bold;
+    line-height: 2.6rem;
+    color:var(--black);
+}
+
+.main-container p{
+    margin-bottom:30px;
+    font-size: 1.4rem;
+    font-weight:500;
+    line-height: 1.6rem;
+    color:var(--grey);
+}
+/*tabla*/
+.main-project-table{
+    width:70%;
+    min-width: 280px;
+    max-width:500px;
+    height:360px;
+    margin:0 auto;
+    font-family: "Inter",sans-serif;
+}
+
+.main-project-table .project-table--tittle{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color:var(--orange);
+}
+
+.project-table--container{
+    width:90%;
+    min-width:230px;
+    max-width: 300px;
+    height:250px;
+    margin:0 auto;
+}
+
+.project-table--container table{
+   width: 100%;
+   height: 100%;
+}
+
+.project-table--container td{
+    width:50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color:var(--grey);
+    background-color: var(--just-white);
+}
+
+.project-table--container .table__top-left{
+    border-radius: 15px 0 0 0;
+}
+
+.project-table--container .table__top-right{
+    border-radius: 0 15px 0 0;
+}
+
+.project-table--container .table__bottom-left {
+    border-radius: 0 0 0 15px;
+}
+
+.project-table--container .table__bottom-right{
+    border-radius: 0 0 15px 0;
+}
+
+.project-table--container .table__right{
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+}
+
+.icon{
+    display:inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left:10px;
+    background-image: url("../pics/note-icon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.date {
+    width:80%;
+    height: 31px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding:8px;
+    border-radius: 10px;
+    background-color: var(--soft-orange);
+}
+
+.date p{
+    font-family: "Inter",sans-serif;
+    font-size:1.2rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    color: var(--warm-blackblack);
+}
+
+.backgroundImg-scrappy{
+    width:200px;
+    height:200px;
+    margin:0 auto;
+    margin-bottom:50px;
+    background-image:url("../pics/scrapy.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+/*style 2*/
+.main-container-style_2{
+    width:100%;
+    height:auto;
+    padding-top:80px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: var(--black);
+}
+
+.main-container-style_2 h2{
+    margin-bottom:30px;
+    font-size:2.4rem;
+    font-weight:bold;
+    line-height: 2.6rem;
+    color:var(--just-white);
+}
+
+.main-container-style_2 p{
+    margin-bottom:30px;
+    font-size: 1.4rem;
+    font-weight:500;
+    line-height: 1.6rem;
+    color:var(--grey);
+}
 
 nav{
     background-color:white;
@@ -111,8 +290,6 @@ nav{
 
 .titulo-parent{
     display: inline-block;
-    
-   
 }
 
 .logo-containt{
